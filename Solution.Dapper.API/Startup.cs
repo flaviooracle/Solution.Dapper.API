@@ -16,7 +16,7 @@ namespace Solution.Dapper.API
 
         public IConfiguration Configuration { get; }
         public string conection { get; }
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration) 
         {
             Configuration = configuration;
             //conection = configuration.GetConnectionString("MyConnection");
