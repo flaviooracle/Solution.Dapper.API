@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Solution.Dapper.Domain.Models.Cliente>;
+
+@{
+}
+
+
+<h2> Visualização dos Clientes</h2>
+
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome Cliente</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

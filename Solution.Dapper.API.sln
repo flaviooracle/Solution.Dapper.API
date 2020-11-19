@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solution.Dapper.API", "Solution.Dapper.API\Solution.Dapper.API.csproj", "{5D13A191-134B-482B-ACE2-D4634AE5712A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solution.Dapper.Core", "Solution.Dapper.Core\Solution.Dapper.Core.csproj", "{85A7B005-78C5-4CCF-9961-B8A1DD1F9DEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solution.Dapper.Core", "Solution.Dapper.Core\Solution.Dapper.Core.csproj", "{85A7B005-78C5-4CCF-9961-B8A1DD1F9DEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solution.Dapper.Domain", "Solution.Dapper.Domain\Solution.Dapper.Domain.csproj", "{A1609B7A-ED0B-48CD-BDF0-E73F85247B4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solution.Dapper.Domain", "Solution.Dapper.Domain\Solution.Dapper.Domain.csproj", "{A1609B7A-ED0B-48CD-BDF0-E73F85247B4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solution.Dapper.Repository", "Solution.Dapper.Repository\Solution.Dapper.Repository.csproj", "{37F39BD1-3FB3-4436-A119-278B49ABA829}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solution.Dapper.Repository", "Solution.Dapper.Repository\Solution.Dapper.Repository.csproj", "{37F39BD1-3FB3-4436-A119-278B49ABA829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solution.Asp.Web", "Solution.Asp.Web\Solution.Asp.Web.csproj", "{E84DD6D1-838D-42EF-81AC-A8D01F8E38B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{37F39BD1-3FB3-4436-A119-278B49ABA829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37F39BD1-3FB3-4436-A119-278B49ABA829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37F39BD1-3FB3-4436-A119-278B49ABA829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84DD6D1-838D-42EF-81AC-A8D01F8E38B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84DD6D1-838D-42EF-81AC-A8D01F8E38B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84DD6D1-838D-42EF-81AC-A8D01F8E38B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84DD6D1-838D-42EF-81AC-A8D01F8E38B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

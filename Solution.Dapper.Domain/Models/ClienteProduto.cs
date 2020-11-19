@@ -1,4 +1,5 @@
-﻿using Solution.Dapper.Domain.Models.BaseModel;
+﻿using Solution.Dapper.Domain.Models;
+using Solution.Dapper.Domain.Models.BaseModel;
 using System;
 using System.Collections.Generic;
 using System.Text;

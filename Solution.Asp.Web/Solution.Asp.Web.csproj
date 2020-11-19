@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Solution.Dapper.Core\Solution.Dapper.Core.csproj" />
+    <ProjectReference Include="..\Solution.Dapper.Domain\Solution.Dapper.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

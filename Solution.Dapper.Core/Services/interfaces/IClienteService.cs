@@ -1,5 +1,5 @@
 ﻿using Solution.Dapper.Domain.Contract.Interface;
-using Solution.Dapper.Repository.Models;
+using Solution.Dapper.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;

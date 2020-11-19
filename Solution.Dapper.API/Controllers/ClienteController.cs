@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Solution.Dapper.Core.Services.interfaces;
-using Solution.Dapper.Repository.Models;
+using Solution.Dapper.Domain.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

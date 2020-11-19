@@ -1,4 +1,4 @@
-﻿using Solution.Dapper.Repository.Models;
+﻿using Solution.Dapper.Domain.Models;
 using System.Collections.Generic;
 
 namespace Solution.Dapper.Repository.Mapper

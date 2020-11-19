@@ -1,8 +1,8 @@
 ﻿using Dapper;
 using Solution.Dapper.Domain.Contract;
 using Solution.Dapper.Domain.Contract.Interface;
+using Solution.Dapper.Domain.Models;
 using Solution.Dapper.Repository.Mapper;
-using Solution.Dapper.Repository.Models;
 using Solution.Dapper.Repository.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
